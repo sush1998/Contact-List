@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 20rem;
+    align-items: center;
+    background-color: #4E57A6;
+    color:#EFEDFF;
+    border-radius: 20px;
+  }
+  
+  .name {
+    height: 6rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1000;
+  }
+  
+  .details {
+    height: 10rem;
+    width: 90%;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .contact {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .other {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dob {
+    width: auto;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+  }
+  
+  .address {
+    width: auto;
+    height: 5rem;
+    display: flex;                                                                               
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1em;
+  }
+  

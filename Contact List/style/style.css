@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  width: 100%;
+}
+
+h1
+{
+  font-size: xx-large;
+  color: #0F2A71;
+  text-align: center;
+}
+  .display
+  {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    margin: 5rem 1rem;
+  }
+
+  .form_container{
+    border: solid 10px #0F2A71;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    padding: 1.5rem;
+  }
+
+  form
+  {
+    color:#0F2A71;
+  }
+  
+  .input_name,.input_address ,.contact_details,.tools
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact_details , .dob_input
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ form input
+ {
+  padding: 0.2rem 1rem;
+  margin: 0.5rem 1rem;
+  font-size:medium ;
+ }
+
+
+ #add
+ {
+  margin: 0 45%;
+  width: fit-content;
+  background-color: #CDA715;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.2rem;
+ }
+
+
+ hr
+ {
+  border: solid 2px #0F2A71;
+ }
+
+.tools input,select,form input
+{
+  height:1.8rem;
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+}
+
+.tools span
+{
+  color:#0F2A71;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+#error_msg
+{
+  color:#A33A41;
+  font-size: large;
+  font-weight: 600;
+}
