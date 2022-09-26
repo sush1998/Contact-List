@@ -5,7 +5,7 @@ A web app to keep track to contacts.
 
 Check of requirments:
 
-1. Page should have two sections one section should show the persons list (Table/Cards)
+1.Page should have two sections one section should show the persons list (Table/Cards)
 and second section should have a form for adding a person to the table.
 
 2.Person form will have First name, Last name, Date of birth, email, mobile number, city
